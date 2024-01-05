@@ -1,0 +1,50 @@
+
+<!-- saved from url=(0048)file:///C:/Users/Shanker/Desktop/calculator.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+			<link rel="stylesheet" href="./Attractive Calculator_files/calci.css">
+			<title>Attractive Calculator</title>
+	</head>
+	<body>
+	<div class="overlay">
+		
+		<div class="about-me-img">
+		<h1>Online calculator</h1>
+		<h2>By:-  Aboli</h2>
+		<img src="./Attractive Calculator_files/camera.png">
+	</div>
+			
+	<form name="form1" class="calci action=" calculator.html"="" method="POST">
+	<input type="text" name="answer" id="display">
+	<br>
+	<br>
+	<input type="button" class="btnDesign" value="C" onclick="form1.answer.value=&#39; &#39;">
+	<input type="button" class="btnDesign" value="&lt;" onclick="form1.answer.value=form1.answer.value.substring(0,form1.answer.value.length*1-1)">
+	<input type="button" class="btnDesign" value="00" onclick="form1.answer.value+=&#39;00&#39;">
+	<input type="button" class="operatorDesign" value="/" onclick="form1.answer.value+=&#39;/&#39;">
+	<br>
+	<br>
+	<input type="button" class="btnDesign" value="7" onclick="form1.answer.value+=&#39;7&#39;">
+	<input type="button" class="btnDesign" value="8" onclick="form1.answer.value+=&#39;8&#39;">
+	<input type="button" class="btnDesign" value="9" onclick="form1.answer.value+=&#39;9&#39;">
+	<input type="button" class="operatorDesign" value="*" onclick="form1.answer.value+=&#39;*&#39;">
+	<br>
+	<br>
+	<input type="button" class="btnDesign" value="4" onclick="form1.answer.value+=&#39;4&#39;">
+	<input type="button" class="btnDesign" value="5" onclick="form1.answer.value+=&#39;5&#39;">
+	<input type="button" class="btnDesign" value="6" onclick="form1.answer.value+=&#39;6&#39;">
+	<input type="button" class="operatorDesign" value="-" onclick="form1.answer.value+=&#39;-&#39;">
+	<br>
+	<br>
+	<input type="button" class="btnDesign" value="1" onclick="form1.answer.value+=&#39;1&#39;">
+	<input type="button" class="btnDesign" value="2" onclick="form1.answer.value+=&#39;2&#39;">
+	<input type="button" class="btnDesign" value="3" onclick="form1.answer.value+=&#39;3&#39;">
+	<input type="button" class="operatorDesign" value="+" onclick="form1.answer.value+=&#39;+&#39;">
+	<br>
+	<br>
+	<input type="button" id="zero" value="0" onclick="form1.answer.value+=&#39;0&#39;">
+	<input type="button" class="btnDesign" value="." onclick="form1.answer.value+=&#39;.&#39;">
+	<input type="button" class="operatorDesign" value="=" onclick="form1.answer.value=eval(form1.answer.value)">
+		
+	</form>
+</div>
+</body></html>
